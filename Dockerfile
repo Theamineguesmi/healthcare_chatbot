@@ -16,6 +16,7 @@ RUN pip install --no-cache-dir --upgrade pip
 
 RUN pip install rasa==3.4.5
 RUN pip install openai
+RUN pip install websockets==10.0
 
 ADD config.yml config.yml
 ADD domain.yml domain.yml
