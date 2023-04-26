@@ -32,10 +32,3 @@ stories:
   steps:
   - intent: openAI
   - action: openai_action
-
-- story: out of scope
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: outofscope
-  - action: openai_action

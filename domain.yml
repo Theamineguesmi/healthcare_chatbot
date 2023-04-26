@@ -13,6 +13,7 @@ intents:
 - openAI
 
 slots:
+
   name:
     type: text
     influence_conversation: false
@@ -21,24 +22,27 @@ slots:
       conditions:
       - active_loop: contact_us_form
         requested_slot: name
+
+
   email:
     type: text
     influence_conversation: false
     mappings:
-    - type: from_entity
-      entity: email
+    - type: from_text
       conditions:
       - active_loop: contact_us_form
-    - type: from_entity
-      entity: email
+        requested_slot: email
+
+
   phone_number:
     type: text
     influence_conversation: false
     mappings:
-    - type: from_entity
-      entity: number
+    - type: from_text
       conditions:
       - active_loop: contact_us_form
+        requested_slot: phone_number
+
   message:
     type: text
     influence_conversation: false
@@ -47,6 +51,7 @@ slots:
       conditions:
       - active_loop: contact_us_form
         requested_slot: message
+
   confirm_details:
     type: any
     influence_conversation: false
