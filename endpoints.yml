@@ -11,7 +11,7 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 action_endpoint:
-  url: "http://localhost:5055/webhook"
+  url: "https://rasa-actions-server-theamineguesmi.cloud.okteto.net/webhook"
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
@@ -36,14 +36,14 @@ tracker_store:
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
 
-event_broker:
-  type: pika
-  url: localhost
-  username: admin
-  password: admin
-  queues:
-    - queue-1
+#event_broker:
+#  type: pika
+ # url: localhost
+ # username: admin
+ # password: admin
+ # queues:
+#    - queue-1
 #   you may supply more than one queue to publish to
-    - queue-2
-    - queue-3
-  exchange_name: exchange
+#    - queue-2
+#    - queue-3
+ # exchange_name: exchange
