@@ -23,7 +23,7 @@ pipeline:
    retrieval_intent: chitchat
  - name: DucklingEntityExtractor
    dimensions: ["email", "number"]
-   url: "http://0.0.0.0:8000"
+   url: "https://duckling-server-theamineguesmi.cloud.okteto.net"
  - name: FallbackClassifier
    threshold: 0.3
    ambiguity_threshold: 0.1
