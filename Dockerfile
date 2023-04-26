@@ -14,7 +14,7 @@ WORKDIR /app
 # upgrade pip version
 RUN pip install --no-cache-dir --upgrade pip
 
-RUN pip install rasa==2.8.1
+RUN pip install rasa
 RUN pip install openai
 RUN pip install websockets==10.0
 
