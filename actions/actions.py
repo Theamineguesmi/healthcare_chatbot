@@ -5,7 +5,7 @@ import datetime
 import openai
 from rasa_sdk.events import SlotSet
 
-openai.api_key = ("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")
+openai.api_key = ("sk-")
 
 from pathlib import Path
 from typing import Any, Text, Dict, List
