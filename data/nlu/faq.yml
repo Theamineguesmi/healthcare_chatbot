@@ -1,0 +1,33 @@
+version: "3.1"
+nlu:
+- intent: faq/appointment
+  examples: |
+    - How do I make a Medical or Dental Appointment?
+    - How do I make a Medical Appointment?
+    - what's Appointment
+    - Appointment time and duration
+    - how long does it take for an appointment
+    - when will my Appointment be canceled
+    - scheduling a medical or dental appointment?
+- intent: faq/payment_modes
+  examples: |
+    - what are payment modes you support
+    - do you support UPI payments?
+    - can I pay on the platform?
+    - is COD available
+    - wallet payment mode
+- intent: faq/platform_policy
+  examples: |
+    - Are you certified to give me medical diagnosis?
+    - Are you qualified to provide me with a medical diagnosis?
+    - Are you licensed to diagnose my health?
+    - Are you certified to give me medical advise?
+    - Are you qualified to provide me with a medical advise?
+    - give me medical diagnosis
+    - give me medical advise
+- intent: faq/prices
+  examples: |
+    - how much you charge patients?
+    - What you charge patients?
+    - how much patients must pay?
+    - Do doctor charge their patients?

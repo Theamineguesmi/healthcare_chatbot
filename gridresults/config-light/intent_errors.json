@@ -1,0 +1,682 @@
+[
+  {
+    "text": "great",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999556541442871
+    }
+  },
+  {
+    "text": "feeling like a king",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9853062629699707
+    }
+  },
+  {
+    "text": "wonderful",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9997404217720032
+    }
+  },
+  {
+    "text": "I am great",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9985620379447937
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999961853027344
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9745657444000244
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.43682247400283813
+    }
+  },
+  {
+    "text": "not good",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.48724937438964844
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9860600233078003
+    }
+  },
+  {
+    "text": "am I talking to a bot?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.6313619613647461
+    }
+  },
+  {
+    "text": "how much time does it take for delivery",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "how long does it take for product to ship",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9982870221138
+    }
+  },
+  {
+    "text": "can I pay on delivery?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9940177202224731
+    }
+  },
+  {
+    "text": "is COD available",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9997734427452087
+    }
+  },
+  {
+    "text": "hey",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "openAI",
+      "confidence": 0.9719682335853577
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "openAI",
+      "confidence": 0.4447207748889923
+    }
+  },
+  {
+    "text": "hey dude",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "openAI",
+      "confidence": 0.9551491737365723
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9974138736724854
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.4660928249359131
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.39132750034332275
+    }
+  },
+  {
+    "text": "thank you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999948740005493
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.7878751158714294
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "login",
+      "confidence": 0.25317683815956116
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999972581863403
+    }
+  },
+  {
+    "text": "never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999107122421265
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9997923970222473
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "provide support",
+    "intent": "contact_us",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9980054497718811
+    }
+  },
+  {
+    "text": "how to login",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.8432692289352417
+    }
+  },
+  {
+    "text": "how can i login",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.5786071419715881
+    }
+  },
+  {
+    "text": "how to signin",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.8717299699783325
+    }
+  },
+  {
+    "text": "artificial intelligence",
+    "intent": "openAI",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999896287918091
+    }
+  },
+  {
+    "text": "SEL ME SOMETHING",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8966445326805115
+    }
+  },
+  {
+    "text": "everything",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9549574851989746
+    }
+  },
+  {
+    "text": "i am qq",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "openAI",
+      "confidence": 0.5532482862472534
+    }
+  },
+  {
+    "text": "more",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5336470007896423
+    }
+  },
+  {
+    "text": "some thing else",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.32970255613327026
+    }
+  },
+  {
+    "text": "contextua",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.6039794683456421
+    }
+  },
+  {
+    "text": "contextual",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.3477240204811096
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9352332949638367
+    }
+  },
+  {
+    "text": "extremely good",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.4673207402229309
+    }
+  },
+  {
+    "text": "my day was horrible",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999516010284424
+    }
+  },
+  {
+    "text": "I am disappointed",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.4596327245235443
+    }
+  },
+  {
+    "text": "extremly sad",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.4489808976650238
+    }
+  },
+  {
+    "text": "are you a bot?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999982118606567
+    }
+  },
+  {
+    "text": "are you a human?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999490976333618
+    }
+  },
+  {
+    "text": "what's shipping duration",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.999996542930603
+    }
+  },
+  {
+    "text": "shipping time and duration",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.8557608723640442
+    }
+  },
+  {
+    "text": "what are payment modes you support",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999933242797852
+    }
+  },
+  {
+    "text": "do you support UPI payments?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9935510158538818
+    }
+  },
+  {
+    "text": "wallet payment mode",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.999872088432312
+    }
+  },
+  {
+    "text": "when can I return something",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9826061725616455
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.8160889148712158
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9572207927703857
+    }
+  },
+  {
+    "text": "goodmorning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.6588708162307739
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9992469549179077
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.4924050271511078
+    }
+  },
+  {
+    "text": "cee you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999905824661255
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.999859094619751
+    }
+  },
+  {
+    "text": "see you around",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999995231628418
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999954700469971
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.39418330788612366
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3101898729801178
+    }
+  },
+  {
+    "text": "no",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.5505015254020691
+    }
+  },
+  {
+    "text": "n",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7202052474021912
+    }
+  },
+  {
+    "text": "no way",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9999438524246216
+    }
+  },
+  {
+    "text": "please connect me with someone from your team",
+    "intent": "contact_us",
+    "intent_prediction": {
+      "name": "outofscope",
+      "confidence": 0.9743932485580444
+    }
+  },
+  {
+    "text": "connect",
+    "intent": "login",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.9225270748138428
+    }
+  },
+  {
+    "text": "hey DS",
+    "intent": "openAI",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9273555874824524
+    }
+  },
+  {
+    "text": "i feel",
+    "intent": "openAI",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.9992627501487732
+    }
+  },
+  {
+    "text": "NLW",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5521613955497742
+    }
+  },
+  {
+    "text": "colder",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4510228931903839
+    }
+  },
+  {
+    "text": "connect to alexa",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "contact_us",
+      "confidence": 0.8981374502182007
+    }
+  },
+  {
+    "text": "dinner",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.27810636162757874
+    }
+  },
+  {
+    "text": "doctor",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "openAI",
+      "confidence": 0.9737011790275574
+    }
+  },
+  {
+    "text": "genocide",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "openAI",
+      "confidence": 0.4504866302013397
+    }
+  },
+  {
+    "text": "how",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "login",
+      "confidence": 0.6756594181060791
+    }
+  },
+  {
+    "text": "ljljl",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6279671788215637
+    }
+  },
+  {
+    "text": "oh my god, not again!",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.5531908273696899
+    }
+  },
+  {
+    "text": "only that?",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6459091901779175
+    }
+  },
+  {
+    "text": "order good",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.6019867062568665
+    }
+  },
+  {
+    "text": "really? you're so touchy?",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8410856127738953
+    }
+  },
+  {
+    "text": "the beatles",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4163002371788025
+    }
+  },
+  {
+    "text": "you have to",
+    "intent": "outofscope",
+    "intent_prediction": {
+      "name": "openAI",
+      "confidence": 0.6424698829650879
+    }
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "text": "super stoked",
+    "intent_response_key_target": "chitchat/mood_great",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_unhappy",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent_response_key_target": "chitchat/mood_unhappy",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "not good",
+    "intent_response_key_target": "chitchat/mood_unhappy",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "not very good",
+    "intent_response_key_target": "chitchat/mood_unhappy",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "am I talking to a bot?",
+    "intent_response_key_target": "chitchat/bot_challenge",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "am I talking to a human?",
+    "intent_response_key_target": "chitchat/bot_challenge",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how much time does it take for delivery",
+    "intent_response_key_target": "faq/shipping_duration",
+    "intent_response_key_prediction": {
+      "name": "faq/return_policy",
+      "confidence": 0.9999914169311523
+    }
+  },
+  {
+    "text": "how long does it take for product to ship",
+    "intent_response_key_target": "faq/shipping_duration",
+    "intent_response_key_prediction": {
+      "name": "faq/track_product",
+      "confidence": 0.8942775726318359
+    }
+  },
+  {
+    "text": "when will my product be delivered",
+    "intent_response_key_target": "faq/shipping_duration",
+    "intent_response_key_prediction": {
+      "name": "faq/track_product",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "can I pay on delivery?",
+    "intent_response_key_target": "faq/payment_modes",
+    "intent_response_key_prediction": {
+      "name": "faq/track_product",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "is COD available",
+    "intent_response_key_target": "faq/payment_modes",
+    "intent_response_key_prediction": {
+      "name": "faq/track_product",
+      "confidence": 0.9999874830245972
+    }
+  },
+  {
+    "text": "I am disappointed",
+    "intent_response_key_target": "chitchat/mood_unhappy",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 0.9152939915657043
+    }
+  },
+  {
+    "text": "what are payment modes you support",
+    "intent_response_key_target": "faq/payment_modes",
+    "intent_response_key_prediction": {
+      "name": "faq/return_policy",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "do you support UPI payments?",
+    "intent_response_key_target": "faq/payment_modes",
+    "intent_response_key_prediction": {
+      "name": "faq/shipping_duration",
+      "confidence": 0.9991538524627686
+    }
+  },
+  {
+    "text": "wallet payment mode",
+    "intent_response_key_target": "faq/payment_modes",
+    "intent_response_key_prediction": {
+      "name": "faq/shipping_duration",
+      "confidence": 0.9987810254096985
+    }
+  }
+]

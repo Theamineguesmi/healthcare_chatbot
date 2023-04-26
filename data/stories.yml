@@ -1,0 +1,41 @@
+version: "3.1"
+
+stories:
+
+- story: contact us form
+  steps:
+  - intent: contact_us
+  - action: contact_us_form
+  - active_loop: contact_us_form
+
+- story: chitchat
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: chitchat
+  - action: utter_chitchat
+
+- story: faq
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: faq
+  - action: utter_faq
+
+
+- story: login
+  steps:
+  - intent: login
+  - action: utter_login
+
+- story: openAI
+  steps:
+  - intent: openAI
+  - action: openai_action
+
+- story: out of scope
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: outofscope
+  - action: openai_action

@@ -1,0 +1,128 @@
+version: "3.1"
+
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- faq
+- chitchat
+- contact_us
+- login
+- outofscope
+- openAI
+
+slots:
+  name:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: contact_us_form
+        requested_slot: name
+  email:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: email
+      conditions:
+      - active_loop: contact_us_form
+    - type: from_entity
+      entity: email
+  phone_number:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: number
+      conditions:
+      - active_loop: contact_us_form
+  message:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: contact_us_form
+        requested_slot: message
+  confirm_details:
+    type: any
+    influence_conversation: false
+    mappings:
+    - intent: affirm
+      value: yes
+      type: from_intent
+      conditions:
+      - active_loop: contact_us_form
+        requested_slot: confirm_details
+    - intent: deny
+      value: no
+      type: from_intent
+      conditions:
+      - active_loop: contact_us_form
+        requested_slot: confirm_details
+entities:
+- email
+- number
+responses:
+  utter_login:
+  - text: Go ahead, try this http://127.0.0.1:8001/login
+  utter_greet:
+  - text: Hey! How are you?
+  utter_chitchat/mood_unhappy:
+  - text: 'Here is something to cheer you up:'
+    image: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jokes-for-kids-honeycombs-164703-1661358025.jpeg
+  utter_chitchat/mood_great:
+  - text: Great, carry on!
+  utter_chitchat/bot_challenge:
+  - text: I am a bot, powered by DoctorSina .
+  utter_faq/appointment:
+  - text:  You can make and appointment from accounts -> appointment. There you will find list of doctors select one of them . try this http://127.0.0.1:8001/login .
+  utter_faq/payment_modes:
+  - text: "Payment mode we are supporting:\nCOD\nDebit/Credit cards\nEMI\nWallets."
+  utter_faq/platform_policy:
+  - text: As an AI language model, I am not a certified healthcare professional and I cannot provide medical diagnoses or treatments. My responses are based on general knowledge and information available to me. If you have any concerns about your health, it is always best to consult with a qualified healthcare professional for an accurate diagnosis and appropriate treatment plan.
+  utter_faq/prices:
+  - text: We have more than one plan, so it depends. Plans are available on a monthly or yearly basis. For more information, try this  http://127.0.0.1:8001/login.
+  utter_outofscope:
+  - text: Sorry, I wasn't able to understand. Could you please rephrase it?
+  utter_ask_name:
+  - text: Could you please tell me your name?
+  utter_ask_email:
+  - text: Can you please provide me your email address?
+  utter_ask_phone_number:
+  - text: Can you please provide me your phone number?
+  utter_ask_message:
+  - text: Please tell me your query so I can forward that to our team.
+
+  utter_ask_confirm_details:
+  - buttons:
+    - title: Yes
+      payload: Yes
+    - title: No
+      payload: No
+    text: "These are the details I captured. Please confirm them below:\n Name: {name}\nEmail: {email}\nPhone No: {phone_number}\nMessage: {message}"
+
+  utter_mail_success:
+  - text: I have mailed all details to our team. You will be reverted back within 48hrs.
+  utter_mail_canceled:
+  - text: I have canceled the mail. Anything else you want help with?
+  utter_goodbye:
+  - text: Would you like to give us a feedback ?
+actions:
+- validate_contact_us_form
+- action_submit_contact_us_form
+- openai_action
+forms:
+  contact_us_form:
+    required_slots:
+    - name
+    - email
+    - phone_number
+    - message
+    - confirm_details
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

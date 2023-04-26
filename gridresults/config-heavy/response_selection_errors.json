@@ -1,0 +1,122 @@
+[
+  {
+    "text": "I am feeling very good",
+    "intent_response_key_target": "chitchat/mood_great",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_unhappy",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent_response_key_target": "chitchat/mood_great",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_unhappy",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "extremely good",
+    "intent_response_key_target": "chitchat/mood_great",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_unhappy",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "so good",
+    "intent_response_key_target": "chitchat/mood_great",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_unhappy",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "am I talking to a bot?",
+    "intent_response_key_target": "chitchat/bot_challenge",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "am I talking to a human?",
+    "intent_response_key_target": "chitchat/bot_challenge",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "how much time does it take for delivery",
+    "intent_response_key_target": "faq/shipping_duration",
+    "intent_response_key_prediction": {
+      "name": "faq/return_policy",
+      "confidence": 0.4958231747150421
+    }
+  },
+  {
+    "text": "how long does it take for product to ship",
+    "intent_response_key_target": "faq/shipping_duration",
+    "intent_response_key_prediction": {
+      "name": "faq/return_policy",
+      "confidence": 0.9961025714874268
+    }
+  },
+  {
+    "text": "is COD available",
+    "intent_response_key_target": "faq/payment_modes",
+    "intent_response_key_prediction": {
+      "name": "faq/return_policy",
+      "confidence": 0.9982383251190186
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent_response_key_target": "chitchat/mood_great",
+    "intent_response_key_prediction": {
+      "name": "chitchat/bot_challenge",
+      "confidence": 0.9999986886978149
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent_response_key_target": "chitchat/mood_unhappy",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent_response_key_target": "chitchat/mood_unhappy",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 0.9891369342803955
+    }
+  },
+  {
+    "text": "not good",
+    "intent_response_key_target": "chitchat/mood_unhappy",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "not very good",
+    "intent_response_key_target": "chitchat/mood_unhappy",
+    "intent_response_key_prediction": {
+      "name": "chitchat/mood_great",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "can I pay on delivery?",
+    "intent_response_key_target": "faq/payment_modes",
+    "intent_response_key_prediction": {
+      "name": "faq/shipping_duration",
+      "confidence": 1.0
+    }
+  }
+]

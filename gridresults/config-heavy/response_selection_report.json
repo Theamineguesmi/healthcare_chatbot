@@ -1,0 +1,82 @@
+{
+  "faq/return_policy": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {}
+  },
+  "faq/payment_modes": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "faq/shipping_duration": 1,
+      "faq/return_policy": 1
+    }
+  },
+  "faq/track_product": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "chitchat/bot_challenge": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "chitchat/mood_great": 2
+    }
+  },
+  "chitchat/mood_great": {
+    "precision": 0.6,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.6206896551724138,
+    "support": 14,
+    "confused_with": {
+      "chitchat/mood_unhappy": 4,
+      "chitchat/bot_challenge": 1
+    }
+  },
+  "chitchat/mood_unhappy": {
+    "precision": 0.7142857142857143,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7142857142857143,
+    "support": 14,
+    "confused_with": {
+      "chitchat/mood_great": 4
+    }
+  },
+  "faq/shipping_duration": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 5,
+    "confused_with": {
+      "faq/return_policy": 2
+    }
+  },
+  "accuracy": 0.7169811320754716,
+  "macro avg": {
+    "precision": 0.7710884353741496,
+    "recall": 0.7224489795918367,
+    "f1-score": 0.7318672296504809,
+    "support": 53
+  },
+  "weighted avg": {
+    "precision": 0.7323899371069184,
+    "recall": 0.7169811320754716,
+    "f1-score": 0.714315147008706,
+    "support": 53
+  },
+  "micro avg": {
+    "precision": 0.7169811320754716,
+    "recall": 0.7169811320754716,
+    "f1-score": 0.7169811320754716,
+    "support": 53
+  }
+}
