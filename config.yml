@@ -19,7 +19,7 @@ pipeline:
    epochs: 100
    retrieval_intent: faq
  - name: ResponseSelector
-   epochs: 100
+   epochs: 101
    retrieval_intent: chitchat
  - name: DucklingEntityExtractor
    dimensions: ["email", "number"]
